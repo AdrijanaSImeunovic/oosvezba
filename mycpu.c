@@ -16,6 +16,7 @@ int main( int argc, char *argv[] )
     while( 1 )
     {
         fprintf( stdout, "%s\n", str );
+        
         Spin( 5 );
     }
     
